@@ -41,14 +41,6 @@
   
 ### 路由框架
 
-  * 参考项目
-    
-    [ARouter](https://github.com/alibaba/ARouter)
-    
-    [ActivityRouter](https://github.com/mzule/ActivityRouter)
-    
-    [AndRouter](https://github.com/campusappcn/AndRouter)
- 
   * 参考文章
   
     [Android路由实现](http://blog.csdn.net/qibin0506/article/details/53373412?utm_source=tuicool&utm_medium=referral)
@@ -56,3 +48,12 @@
     [Android路由框架设计与实现](http://www.sixwolf.net/blog/2016/03/23/Android%E8%B7%AF%E7%94%B1%E6%A1%86%E6%9E%B6%E8%AE%BE%E8%AE%A1/)
    
     [ActivityRouter路由框架：通过注解实现URL打开Activity](https://joyrun.github.io/2016/08/01/ActivityRouter/)
+ 
+ * 参考项目
+    
+    [ARouter](https://github.com/alibaba/ARouter)
+    
+    [ActivityRouter](https://github.com/mzule/ActivityRouter)
+    
+    [AndRouter](https://github.com/campusappcn/AndRouter)
+ 
