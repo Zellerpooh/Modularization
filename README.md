@@ -4,21 +4,21 @@
 
 ### 组件化
 
-* 参考文章
+  * 参考文章
 
-[Android架构思考(模块化、多进程)](http://blog.spinytech.com/2016/12/28/android_modularization/)
+    [Android架构思考(模块化、多进程)](http://blog.spinytech.com/2016/12/28/android_modularization/)
 
-[Android组件化项目详细实施方案](http://blog.csdn.net/guiying712/article/details/55213884)
+    [Android组件化项目详细实施方案](http://blog.csdn.net/guiying712/article/details/55213884)
 
-[Android 组件化开发原理和配置](http://mp.weixin.qq.com/s/2A4eyHh1cRFeMubpyPynww)
+    [Android 组件化开发原理和配置](http://mp.weixin.qq.com/s/2A4eyHh1cRFeMubpyPynww)
 
-[Android组件化开发实践](http://www.jianshu.com/p/186fa07fc48a)
+    [Android组件化开发实践](http://www.jianshu.com/p/186fa07fc48a)
 
-* 参考项目
+  * 参考项目
 
-[ModuleCommunication](https://github.com/jacklongway/ModuleCommunication)
+    [ModuleCommunication](https://github.com/jacklongway/ModuleCommunication)
 
-[ModularizationApp](https://github.com/wutongke/ModularizationApp)
+    [ModularizationApp](https://github.com/wutongke/ModularizationApp)
 
 ### Module 配置
 ### Gradle 配置
