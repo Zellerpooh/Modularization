@@ -24,7 +24,7 @@
 ### Gradle 配置
 
  * 参考文章
- 
+  
   [Android Studio Project Site](http://tools.android.com/tech-docs/new-build-system/user-guide)
   
   [Gradle for Android系列文章](https://segmentfault.com/a/1190000004229002)
@@ -40,16 +40,16 @@
   [Android Gradle 看这一篇就够了](http://android.walfud.com/android-gradle-%E7%9C%8B%E8%BF%99%E4%B8%80%E7%AF%87%E5%B0%B1%E5%A4%9F%E4%BA%86/)
   
 ### 路由框架
-
+ 
  * 参考文章
-  
+ 
   [Android路由实现](http://blog.csdn.net/qibin0506/article/details/53373412?utm_source=tuicool&utm_medium=referral)
   
   [Android路由框架设计与实现](http://www.sixwolf.net/blog/2016/03/23/Android%E8%B7%AF%E7%94%B1%E6%A1%86%E6%9E%B6%E8%AE%BE%E8%AE%A1/)
   
   [ActivityRouter路由框架：通过注解实现URL打开Activity](https://joyrun.github.io/2016/08/01/ActivityRouter/)
   
- *参考项目
+ * 参考项目
  
   [ARouter](https://github.com/alibaba/ARouter)
   
