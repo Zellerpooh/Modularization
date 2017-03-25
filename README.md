@@ -26,9 +26,9 @@
   * 参考文章
   
     [Android Studio Project Site](http://tools.android.com/tech-docs/new-build-system/user-guide)
-  
-    [Gradle for Android系列文章](https://segmentfault.com/a/1190000004229002)
-  
+    
+    [Gradle for Android系列文章](https://segmentfault.com/a/1190000004229002)
+    
     [Gradle学习系列](http://www.cnblogs.com/davenkin/p/gradle-learning-1.html)
   
     [加速Android Studio/Gradle构建](http://blog.isming.me/2015/03/18/android-build-speed-up/)
