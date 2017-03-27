@@ -1,17 +1,21 @@
 apply plugin: 'com.android.application'
-
+apply plugin: 'android-apt'
 android {
-    compileSdkVersion 25
-    buildToolsVersion "25.0.1"
+    compileSdkVersion ANDROID_BUILD_SDK_VERSION as int
+    buildToolsVersion ANDROID_BUILD_TOOLS_VERSION
     defaultConfig {
         applicationId "com.zeller.modularization"
-        minSdkVersion 15
-        targetSdkVersion 25
-        versionCode 1
-        versionName "1.0"
+        minSdkVersion ANDROID_BUILD_MIN_SDK_VERSION as int
+        targetSdkVersion ANDROID_BUILD_TARGET_SDK_VERSION as int
+        versionCode APP_VERSION_CODE as int
+        versionName APP_VERSION_NAME
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
+
+        debug {
+
+        }
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
@@ -19,11 +23,21 @@ android {
     }
 }
 
+ext {
+    supportLibraryVersion = ANDROID_SUPPORT_LIBRARY_VERSION
+}
+
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'libs')
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile 'com.android.support:appcompat-v7:25.1.0'
+    compile "com.android.support:appcompat-v7:${supportLibraryVersion}"
     testCompile 'junit:junit:4.12'
+    compile project(':bbsmodule')
+    compile project(':mallmodule')
+    compile project(':mlibrary')
+    apt 'com.jakewharton:butterknife-compiler:8.4.0'
+
+
 }

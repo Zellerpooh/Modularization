@@ -38,6 +38,8 @@
     [Gradle For Android简化版](https://juejin.im/post/580b2007570c350068e50efa)
     
     [Android Gradle 看这一篇就够了](http://android.walfud.com/android-gradle-%E7%9C%8B%E8%BF%99%E4%B8%80%E7%AF%87%E5%B0%B1%E5%A4%9F%E4%BA%86/)
+
+    [加快apk的构建速度，如何把编译时间从130秒降到17秒](http://www.jianshu.com/p/53923d8f241c)
   
 ### 路由框架
 
